@@ -12,6 +12,11 @@
 	<p id="p2">마바사아자차카타파하</p>
 </body>
 <script type="text/javascript">
-	$("#p1").prepend("가나다라");
+	//prepend 는 html과 유사하다	(태그 적용 가능)
+	//prepend --> 앞에 적용
+	$("#p1").prepend("<Strong>가나다라<Strong>");
+	
+	//append --> 뒤에 적용
+	$("#p2").append("<Strong>abcdefg</Strong>");
 </script>
 </html>
