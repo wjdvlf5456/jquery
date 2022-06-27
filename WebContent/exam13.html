@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <script type="text/javascript" src="./assets/js/jquery/jquery-1.12.4.js"></script>
-<title>Insert title here</title>
+<title>ex13</title>
 </head>
 <body>
 	<div>
@@ -12,7 +12,22 @@
 	</div>
 
 </body>
+<script type="text/javascript">
+//한번 클릭
+//$("#btn").on("click",function(){
+//더블클릭
+$("#btn").on("dblclick",function(){
+	console.log("클릭");
+	
+	
+	//var tag = $("#display");
+	//console.log(tag);
+	//tag.html("<font color='red'>홍길동</font>");
+	
+	$("#display").text("홍길동");
+	$("#display").css("color","red");
+	
+})
 
-
-
+</script>
 </html>
